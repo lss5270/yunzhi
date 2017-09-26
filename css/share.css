@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#login{
+	width: 100%;
+	height: 30px;
+	background: #373d41;
+}
+#login>div{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#login>div span{
+	color: #ff7300;
+}
+#login .L-left{
+	overflow: hidden;
+	float: left;
+}
+#login .L-left li{
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	color: #fff;
+	font-size: 12px;
+	padding: 0 10px;
+	margin: 8px 0;
+}
+#login .L-left li:nth-of-type(2){
+	border-right: 1px solid #fff;
+}
+#login .L-left li a{
+	color: #fff;
+}
+#login .L-right{
+	float: right;
+}
+#login .L-right li{
+	font-size: 12px;
+	float: left;
+	color: #fff;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 10px;
+	margin: 8px 0;
+	border-right: 1px solid #fff;
+}
+#login .L-right li:nth-of-type(7){
+	border: none;
+}
+#login .L-right li:nth-of-type(8){
+	border: none;
+}
+#login .L-right li a{
+	color: #fff;
+}
+#nav{
+	width: 100%;
+	height: 80px;
+	transition: 5s;
+}
+#nav>.N-top{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#nav>.N-top>a{
+	float: left;
+	margin: 10px 0;
+}
+#nav .N-top .N-T-left{
+	overflow: hidden;
+	float: right;
+}
+
+#nav .N-top .N-T-left li{
+	float: left;
+	font-size: 14px;
+	padding: 30px 12px;
+	position: relative;
+}
+#nav .N-top .N-T-left li:hover{
+	border-bottom: 2px solid #ff7300;
+	padding: 29px 12px;
+}
+#nav .N-top .N-T-left li a{
+	color: #000;
+}
+#nav .N-top .N-T-left li img{
+	position: absolute;
+	top: 5px;
+	left: 30px;
+}
+#nav .box{
+	z-index: 2;
+	width: 100%;
+	background: #f1f3f5;
+	overflow:hidden;
+	display: none;
+	position: relative;
+}
+#nav .box .N-bottom{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+#nav .box .N-bottom h3{
+	padding: 10px 0;
+	font-size: 20px;
+}
+#nav .box .N-bottom hr{
+	color: #999;
+	margin: 5px 0;
+}
+#nav .box .N-bottom ul{
+	float: left;
+	overflow: hidden;
+	width: 500px;
+	margin: 5px 0;
+}
+#nav .box .N-bottom .N-B-left>.B-b-l-left1{
+	height: 150PX;
+	padding: 20px 0px 20px 50px;
+}
+#nav .box .N-bottom .N-B-left>.B-l-l-right1{
+	height: 150PX;
+	padding: 20px 0px 20px 50px;
+}
+
+#nav .box .N-bottom .N-B-left>div{
+	float: left;
+	height: 100px;
+	width: 180px;
+	padding: 20px 0px 20px 40px;
+	background: #FFF;
+	margin: 5px;
+	position: relative;
+	cursor: pointer;
+}
+#nav .box .N-bottom .N-B-left>div h4{
+	font-size: 14px;
+}
+#nav .box .N-bottom .N-B-left>div span{
+	display: inline-block;
+	padding: 0px 5px;
+	margin-right: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+#nav .box .N-bottom .N-B-left>div span:hover{
+	border: 1px solid #fff;
+	padding: 0px 4px;
+}
+#nav .box .N-bottom .N-B-left>div h6{
+	font-weight: 600;
+	margin: 5px 0;
+	color: #000;
+}
+#nav .box .N-bottom .N-B-left>div p{
+	font-size: 10px;
+	color: #666;
+	margin: 10px 0;
+}
+#nav .box .N-bottom .N-B-left>div img{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+#nav .box .N-bottom ul li{
+	width: 170px;
+	padding: 20px 20px 20px 50px;
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+	color: #666;
+	position: relative;
+	background: #fff;
+}
+#nav .box .N-bottom ul li img{
+	position: absolute;
+	top:15px;
+	left: 10px;
+}
+#nav .box .N-bottom ul li h5{
+	font-weight: 500;
+	
+}
+#nav .box .N-bottom ul li p{
+	font-size: 10px;
+	margin-top: 5px;
+}
+#nav .box .N-bottom ol{
+	overflow: hidden;
+	width: 500px;
+	cursor: pointer;
+}
+#nav .box .N-bottom ol li{
+	width: 200px;
+	float: left;
+	color: orangered;
+	list-style:outside;
+	margin: 10px 10px 10px 20px;
+}
+#nav .box .N-bottom ol li h5{
+	color: #000000;
+}
+#nav .box .N-bottom ol li h5:hover{
+	color: orangered;
+}
+#nav .box .N-bottom ol li p{
+	color: #666;
+	margin: 5px 0;
+	font-size: 12px;
+}
+#nav .box .N-bottom>.N-B-right{
+}
+#nav .box .N-bottom>.N-B-right li{
+	padding-left: 50px;
+	width: 400px;
+	list-style:outside;
+	margin: 10px 0;
+}
+#nav .box .N-bottom>.N-B-right li a{
+	color: #666;
+}
+#nav .box .N-bottom>.N-B-right li a:hover{
+	color: orange;
+	text-decoration:underline;	
+}
+
+#slider{
+	position: relative;
+}
+#slider ul li{
+	display: none;
+}
+#slider ul li:nth-of-type(1){
+	display: block;
+}
+#slider ul li img{
+	display: block;
+	width: 100%;
+}
+#slider ol{
+	overflow: hidden;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -37px;
+}
+#slider ol li{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #FF7300;
+	border-radius: 50%;
+	float: left;
+	margin: 0 5px;
+}
+.active1{
+	background: #FF7300;
+	border: none;
+}
+#slider a{
+	position: absolute;
+	display: block;
+	width: 40px;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	color: #fff;
+	font-size: 40px;
+	background: rgba(0,0,0,.3);
+	top: 50%;
+	margin-top: -20px;
+	display: none;
+}
+#slider a:nth-of-type(1){
+	left: 50px;
+}
+#slider a:nth-of-type(2){
+	right: 50px;
+}
+#contact ul li:nth-of-type(1){
+	background: url(../images/tel.png) no-repeat ;
+}
+#contact ul li:nth-of-type(2){
+	background: url(../images/youbian.png) no-repeat;
+}
+#contact ul li:nth-of-type(3){
+	background: url(../images/adress.png) no-repeat;
+}
+#copyrigth{
+	background: #e5e7e7;
+	padding-top: 20px;
+}
+#copyrigth>div{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 12px;
+	position: relative;
+}
+#copyrigth>div ul{
+	overflow: hidden;
+	padding: 30px 0;
+}
+#copyrigth>div ul li{
+	float: left;
+}
+#copyrigth>div ul li a{
+	color: #000;
+	border-right: 1px solid #000000;
+	padding: 0 10px;
+}
+#copyrigth>div ul li:nth-of-type(21) a{
+	border: none;
+}
+#copyrigth>div ul li a:hover{
+	color: orange;
+}
+#copyrigth>div ol{
+	padding-left: 10px;
+}
+#copyrigth>div .box{
+	position: absolute;
+	right: 50px;
+	top:20px
+}
+#copyrigth>div .box p{
+	margin: 10px 0;
+}
+#copyrigth>.msg{
+	width: 100%;
+	background: #363636;
+}
+#copyrigth>.msg p{
+	font-size: 12px;
+	padding: 5px 0;
+	color: #fff;
+	width: 700px;
+	margin: 0 auto;
+	background: url(../images/hongdun.png) no-repeat 675px 3px;
+}
+

@@ -1,0 +1,22 @@
+
+#banner {
+	width: 100%;
+}
+#banner>img{
+	width: 100%;
+}
+#top{
+	width: 100%;
+	text-align: center;
+}
+#top img{
+	width: 1024px;
+}
+#bottom{
+	width: 100%;
+	background: #f9f9f9;
+	text-align: center;
+}
+#bottom img{
+	width: 1024px;
+}
